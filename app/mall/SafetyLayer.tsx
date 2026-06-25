@@ -12,9 +12,9 @@
  */
 
 import * as React from 'react'
-import { ExitStrategy } from '@/components/uicare/ExitStrategy'
-import { PanicButton } from '@/components/uicare/PanicButton'
-import { GroundingReset } from '@/components/uicare/GroundingReset'
+import { ExitStrategy } from '@repo/safety-layer'
+import { PanicButton } from '@repo/safety-layer'
+import { GroundingReset } from '@repo/safety-layer'
 
 export function SafetyLayer() {
   const [grounding, setGrounding] = React.useState(false)
